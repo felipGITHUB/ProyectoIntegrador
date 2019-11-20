@@ -1,26 +1,28 @@
 /*-----Background-----*/
 
 body{
-	 background-image:url(fondo.jpg);
-	 background-repeat:no-repeat;
-	 background-size:cover;
-	 width:100%;
-	 height:100vh;
-	 overflow:auto;
-	 
+	background-image:url(img/key.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	opacity: 65%;
+	background-attachment:fixed;
+
 }
 
 /*-----for border----*/
 .container{
 	font-family:Roboto,sans-serif;
 	  background-image:url(https://image.freepik.com/free-vector/dark-blue-blurred-background_1034-589.jpg) ;
-    
-     border-style: 1px solid grey;
+
+     border-style: 5px solid grey;
      margin: 0 auto;
      text-align: center;
      opacity: 0.8;
      margin-top: 67px;
-   box-shadow: 2px 5px 5px 0px #eee;
+   box-shadow: 2px 5px 5px 0px #000;
      max-width: 500px;
      padding-top: 10px;
      height: 363px;
@@ -44,14 +46,14 @@ body{
 #lname{
 	 margin-top:5px;
 }
-	  
+
 
 /*---for heading-----*/
 .heading{
 	 text-decoration:bold;
 	 text-align : center;
 	 font-size:30px;
-	 color:#F96;
+	 color:#fff;
 	 padding-top:10px;
 }
 /*-------for email----------*/
@@ -66,6 +68,7 @@ body{
      font-family: sans-serif;
      color: white;
      font-size: 14px;
+		 margin-left: 6px;
      margin-top: 13px;
 }
 .pass{
@@ -86,8 +89,8 @@ body{
      margin-left: -13px;
      margin-top: 10px;
      color: #ff9;
-	
-}	
+
+}
 
 /*--------------for Gender---------------*/
      /*--------------label---------*/
@@ -105,6 +108,7 @@ body{
      font-size: 13px;
      margin-top: 9px;
      padding-bottom: 16px;
+padding-right: 95px;
 }
 .col-xs-4.female {
      color: white;
@@ -112,7 +116,7 @@ body{
      margin-top: 9px;
      padding-bottom: 16px;
 	 padding-right: 95px;
-}	
+}
 /*------------For submit button---------*/
 .sbutton{
 	 color: white;
@@ -123,12 +127,19 @@ body{
      margin-left: 41%;
      margin-top: 16px;
 	 box-shadow: 0px 2px 2px 0px white;
-  	   
+
    }
 .btn.btn-warning:hover {
     box-shadow: 2px 1px 2px 3px #99ccff;
 	background:#5900a6;
 	color:#fff;
-	transition: background-color 1.15s ease-in-out,border-color 1.15s ease-in-out,box-shadow 1.15s ease-in-out;
-	
-}	
+	transition: background-color 0.15s ease-in-out,border-color 1.15s ease-in-out,box-shadow 1.15s ease-in-out;
+
+}
+.col-sm-12{
+	font-family:sans-serif;
+	font-weight: bolder;
+}
+.btn-warning {
+ color: #fff;
+}
